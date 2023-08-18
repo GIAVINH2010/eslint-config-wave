@@ -10,15 +10,8 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'react'],
-  extends: [
-    'airbnb',
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:prettier/recommended',
-  ],
+  plugins: ['@typescript-eslint'],
+  extends: ['airbnb', 'eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': [
       'error',
