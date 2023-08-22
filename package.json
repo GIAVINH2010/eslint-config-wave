@@ -3,10 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": {
-    "url": "git@github.com:GIAVINH2010/eslint-config-wave.git"
-  },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom ESLint, TypeScript and Prettier Config",
   "scripts": {
     "postinstall": "./postinstall.sh"
